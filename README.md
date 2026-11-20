@@ -9,8 +9,8 @@
 ---
 
 ## 📸 Dashboard Preview
+<img width="531" height="316" alt="Diabetes Risk and Lifestyle Indicators Analysis Dashboard" src="https://github.com/user-attachments/assets/1bded895-b9a0-4dab-a5f8-bdaa6963494c" />
 
-![Diabetes Risk Analysis Dashboard](dashboard-preview.png)
 
 ---
 
