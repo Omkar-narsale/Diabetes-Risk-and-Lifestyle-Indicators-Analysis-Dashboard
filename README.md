@@ -1,83 +1,140 @@
-🩺 Diabetes Risk Analysis Dashboard
-A data analytics project built using Microsoft Power BI to analyze diabetes risk based on clinical and lifestyle factors such as HbA1c and BMI.
+# 🩺 Diabetes Risk Analysis Dashboard
 
-📌 Project Overview
-This dashboard provides insights into diabetes prevalence, risk levels, and the relationship between key health indicators.
-It helps identify:
-High-risk patient groups
-Correlation between BMI and HbA1c
-Distribution of diabetes categories
+> An interactive Power BI dashboard analyzing diabetes risk using clinical indicators such as **HbA1c** and **BMI**.
 
-🎯 Objectives
-1.Analyze diabetes risk using health indicators
-2.Visualize patterns in patient data
-3.Enable interactive filtering for better insights
-4.Build a clean and professional dashboard
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoftexcel&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-📊 Dashboard Features
-🔹KPI Metrics
-Total Patients
-Diabetes Prevalence (%)
-Average HbA1c
-Average BMI
-🔹Visualizations
-Donut Chart: Diabetes Class Distribution
-Bar Chart: Risk Level Distribution
-Column Chart: HbA1c Category Distribution
-Bar Chart: BMI Category Distribution
-Scatter Plot: BMI vs HbA1c Relationship
-🔹Interactivity
-Gender-based slicer (Male / Female)
-Dynamic filtering across all visuals
+---
 
-🧹Data Cleaning & Preprocessing
-1.Converted categorical values (Gender, Class)
-2.Handled invalid/missing values (0 values replaced)
-3.Renamed columns for clarity
-4.Ensured correct data types
+## 📸 Dashboard Preview
 
-⚙️ Feature Engineering
-Created new analytical columns:
-1.BMI Category
-2.Age Group
-3.HbA1c Category
-4.Risk Level
+![Diabetes Risk Analysis Dashboard](dashboard-preview.png)
 
-🧠 Key Insights
-1.Higher BMI is associated with increased HbA1c levels
-2.Nearly half of the population falls under the diabetic category
-3.High-risk individuals cluster at higher BMI and HbA1c ranges
-4.Lifestyle factors significantly influence diabetes risk
+---
 
-🛠️ Tools & Technologies
-1.Microsoft Power BI
-2.Microsoft Excel
-3.Data Analysis & Visualization
+## 📌 Project Overview
 
-📁 Project Structure
-📦 Diabetes-Risk-Dashboard
- ┣ 📊 Multiclass Diabetes Dataset.csv
- ┣ 📈 Dashboard.pbix
- ┣ 📄 README.md
- 
-🚀 How to Use
-Download the .pbix file
-Open in Power BI Desktop
-Use slicers to explore data
-Analyze trends and insights
+This dashboard provides insights into diabetes prevalence, patient risk levels, and the relationship between key health indicators. It helps identify:
 
-📌 Future Improvements
-Add time-series analysis
-Integrate predictive modeling
-Expand dataset for better accuracy
-Deploy dashboard on Power BI Service
+- High-risk patient groups
+- The correlation between BMI and HbA1c
+- The distribution of diabetes categories (Diabetic, Prediabetic, Non-Diabetic)
 
-🙌 Acknowledgment
-Dataset used for educational and analytical purposes.
+---
 
-⭐ If You Like This Project
-Give it a ⭐ on GitHub!
+## 🎯 Objectives
 
-👤 Author
-Omkar Narsale
+1. Analyze diabetes risk using health indicators
+2. Visualize patterns in patient data
+3. Enable interactive filtering for better insights
+4. Build a clean and professional dashboard
 
+---
+
+## 📊 Dashboard Features
+
+### KPI Metrics
+
+| KPI | Value |
+|---|---|
+| Total Patients | 266 |
+| Diabetes Prevalence (%) | 48.12 |
+| Average HbA1c (%) | 6.87 |
+| Average BMI | 26.64 |
+
+### Visualizations
+
+| Visual | Purpose |
+|---|---|
+| Donut chart | Diabetes class distribution |
+| Bar chart | Patient risk level distribution |
+| Column chart | HbA1c category distribution |
+| Bar chart | BMI category distribution |
+| Scatter plot | BMI vs HbA1c relationship |
+
+### Interactivity
+
+- Gender slicer (Male / Female)
+- Dynamic cross-filtering across all visuals
+
+---
+
+## 🧹 Data Cleaning & Preprocessing
+
+- Converted categorical values (Gender, Class)
+- Handled invalid and missing values (zero values replaced)
+- Renamed columns for clarity
+- Ensured correct data types
+
+## ⚙️ Feature Engineering
+
+New analytical columns created:
+
+- **BMI Category**
+- **Age Group**
+- **HbA1c Category**
+- **Risk Level**
+
+---
+
+## 🧠 Key Insights
+
+1. Higher BMI is associated with higher HbA1c levels.
+2. Nearly half of the patients fall into the diabetic category.
+3. High-risk individuals cluster at higher BMI and HbA1c ranges.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Microsoft Power BI
+- Microsoft Excel
+- Data analysis and visualization
+
+---
+
+## 📁 Project Structure
+
+```text
+Diabetes-Risk-Dashboard/
+├── Multiclass Diabetes Dataset.csv
+├── Dashboard.pbix
+└── README.md
+```
+
+---
+
+## 🚀 How to Use
+
+1. Download the `Dashboard.pbix` file.
+2. Open it in **Power BI Desktop**.
+3. Use the slicers to explore the data.
+4. Analyze the trends and insights.
+
+---
+
+## 📌 Future Improvements
+
+- Add time-series analysis
+- Integrate predictive modeling
+- Expand the dataset for better accuracy
+- Deploy the dashboard on Power BI Service
+
+---
+
+## 🙌 Acknowledgment
+
+The dataset is used for educational and analytical purposes.
+
+---
+
+## 👤 Author
+
+**Omkar Narsale**
+
+- GitHub: [Omkar-narsale](https://github.com/Omkar-narsale)
+- LinkedIn: [omkar-narsale45](https://linkedin.com/in/omkar-narsale45)
+
+⭐ If you like this project, give it a star on GitHub!
